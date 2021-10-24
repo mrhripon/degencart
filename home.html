@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Document Title Here</title>
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/png">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Plugin Css  -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<body  class="fix">
+    <div id="preloader">
+        <div class="preloader-content">
+            <img src="assets/img/wheel.png" alt="">
+            <p>Please fasten your seatbelts, <br>
+                the race is about to begin.</p>
+        </div>
+    </div>
+
+
+    <!-- Mobile Menu MarkUp Start -->
+
+    <div class="mobile-menu-wrapper">
+        <span class="close-mobile-menu"><i class="fal fa-times"></i></span>
+        <ul id="nav" class="mobile-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#reco">Reconnaissance Lap</a></li>
+            <li><a href="#pit">Pit Stop</a></li>
+            <li><a href="#racemap">Racemap</a></li>
+        </ul>
+    </div>
+    <div class="overlay"></div>
+    <!-- Mobile Menu MarkUp End -->
+
+
+    <!-- All Modal Markup Start  -->
+
+    <div class="modal fade" id="connectWallet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered max-510">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Pick a wallet</h5>
+            <button class="cls-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <ul class="wallet-option">
+                    <li class="active"><a data-bs-target="#warning" data-bs-toggle="modal" href="#"><span><img src="assets/img/w-1.svg" alt=""></span>Sollet.io</a></li>
+                    <li><a href="#"><span><img src="assets/img/w-2.svg" alt=""></span>Phantom</a></li>
+                    <li><a href="#"><span><img src="assets/img/w-3.svg" alt=""></span>MathWallet</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="warning" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered max-510">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Error occured</h5>
+            <button class="cls-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="warning-content text-center">
+                    <img src="assets/img/warning.svg" alt="">
+
+                    <p class="full-w">An error has occured. Please try again.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+  
+    <!-- All Modal Markup End -->
+
+
+    <header class="header-area">
+        <div class="container">
+            <div class="row align-items-center header-content-portion">
+                <div class="col-lg-2 col-3">
+                    <a href="#" class="d-flex align-items-center site_logo"><img class="img-fluid"
+                            src="assets/img/logo.png" alt=""></a>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul id="nav" class="main-menu d-none d-lg-flex align-items-center justify-content-center">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#reco">Reconnaissance Lap</a></li>
+                        <li><a href="#pit">Pit Stop</a></li>
+                        <li><a href="#racemap">Racemap</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-9">
+                    <div class="header-right d-flex align-items-center justify-content-end">
+                        <ul class="social-links d-flex align-items-center justify-content-end">
+                            <li><a href="#"><img src="assets/img/twitter.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/img/gamepad.svg" alt=""></a></li>
+                        </ul>
+                        <a href="#" class="btn connect-wallet" data-bs-target="#connectWallet" data-bs-toggle="modal">Connect Wallet</a>
+                        <button class="toggle-bar d-lg-none d-xl-none"><i class="far fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="page-main-content fix">
+        <div class="hero-area" id="home">
+            <video id="hero-video" autoplay loop>
+                <source src="assets/video/driving.mp4">
+            </video>
+        </div>
+
+        <div class="section invitation-area" id="reco">
+            <div class="container">
+                <div class="lap-content-wrapper position-relative" data-aos="fade-right">
+                    <img src="assets/img/shape-1.png" alt="" class="position-absolute shape-1">
+                    <div class="lap-g-wrapper">
+                        <div class="lap-left">
+                            <div class="section-title">
+                                <h2><img class="obligue" src="assets/img/obligue.svg" alt=""> Reconnaissance Lap
+                                </h2>
+                            </div>
+                            <h5>Please focus while we brief you with information on our circuit. </h5>
+                        <p>Degen Kart Club is a collection of 6,111 unique NFT drivers inspired by cars, Formula 1, the NFT culture and non-sense. <strong>Really, being random is part of their culture.</strong></p>
+                        <p>Each Degen Racer is unique and stored on the Solana and Arweave <br> Blockchains. Some drive racing cars, some flex their Lamborniftys that <br> they gained thanks to NFT trading, some even brought their plane to <br> the stadium while a few others crashed their car before the beginning <br> of the race. However, they all share the same goal: to be <strong>the first <br> drivers on a Degen Racing game.</strong> Which game, you may ask? You, as <br> the proud owner of a Degen Racer, will be the one <strong>deciding on the <br> game that will be developed.</strong></p>
+                        <p>So, buckle up, driver, and scroll down to meet the <strong>six different <br> teams of drivers.</strong></p>
+                        </div>
+                        <div class="lap-right">
+                            <img src="assets/img/img-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- ./about-two-area -->
+
+        <div class="section pit-area" id="pit">
+            <div class="container">
+                <div class="section-title text-center" data-aos="flip-up">
+                    <h2><img class="obligue" src="assets/img/obligue.svg" alt=""> Pit-stop</h2>
+                    <p>6 teams decided to join the race. They all have a type of car, non-visual in-game metadatas <br> associated to their car and share common attributes. Which one will you pick? </p>
+                </div>
+                <div class="pit-g-wrapper">
+                    <div class="pit-single position-relative" data-aos="fade-up" data-aos-delay="">
+                        <div class="side-line">
+                            <img class="position-absolute bottom-side" src="assets/img/h-dash.svg" alt="">
+                        </div>
+                        <div class="pit-img">
+                            <img src="assets/img/p-1.png" alt="">
+                        </div>
+                        <div class="pit-content">
+                            <h5>The Formula 1 Degens</h5>
+                            <p>They like to drive fast, are very limited and know it. However, some of them already crashed their car and will have very poor performance. But they are Degens, can you blame them?</p>
+                        </div>
+                    </div> <!-- ./pit-single -->
+                    <div class="pit-single position-relative" data-aos="fade-up" data-aos-delay="100">
+                        <div class="side-line">
+                            <img class="position-absolute left-side" src="assets/img/v-dash.svg" alt="">
+                            <img class="position-absolute right-side" src="assets/img/v-dash.svg" alt="">
+                            <img class="position-absolute bottom-side" src="assets/img/h-dash.svg" alt="">
+                        </div>
+                        <div class="pit-img">
+                            <img src="assets/img/p-2.png" alt="">
+                        </div>
+                        <div class="pit-content">
+                            <h5>The “My dad is a Lawyer” Degens</h5>
+                            <p>They are rich and like to show it. The richer will flex golden Lamborniftys or Yachts (WTF?) while some are sponsored by Solana that rented them the car for the race. What will yours look like?</p>
+                        </div>
+                    </div> <!-- ./pit-single -->
+                    <div class="pit-single position-relative" data-aos="fade-up" data-aos-delay="150">
+                        <div class="side-line">
+                            <img class="position-absolute bottom-side" src="assets/img/h-dash.svg" alt="">
+                        </div>
+                        <div class="pit-img">
+                            <img src="assets/img/p-3.png" alt="">
+                        </div>
+                        <div class="pit-content">
+                            <h5>The utilitarian Degens</h5>
+                            <p>They got lost. The bus driver, tank soldier 
+                                and firemen thought that the club looked cool and joined the race lineup. They are quite slow but know how to use their special skills to seduce you.</p>
+                        </div>
+                    </div> <!-- ./pit-single -->
+                    <div class="pit-single position-relative" data-aos="fade-up" data-aos-delay="200">
+                        <div class="pit-img">
+                            <img src="assets/img/p-4.png" alt="">
+                        </div>
+                        <div class="pit-content">
+                            <h5>The Off-road Degens</h5>
+                            <p>They have cool cars and look shady. We tried to ask them what they were doing here and told us they just came to have a drink at the bar. That’s dope.</p>
+                        </div>
+                    </div> <!-- ./pit-single -->
+                    <div class="pit-single position-relative" data-aos="fade-up" data-aos-delay="250">
+                        <div class="side-line">
+                            <img class="position-absolute left-side" src="assets/img/v-dash.svg" alt="">
+                            <img class="position-absolute right-side" src="assets/img/v-dash.svg" alt="">
+                        </div>
+                        <div class="pit-img">
+                            <img src="assets/img/p-5.png" alt="">
+                        </div>
+                        <div class="pit-content">
+                            <h5>The random Degens</h5>
+                            <p>What do the plane driver, the hearse and the caravan have in common? Nothing, and that’s why we love them.</p>
+                        </div>
+                    </div> <!-- ./pit-single -->
+                    <div class="pit-single position-relative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="pit-img">
+                            <img src="assets/img/p-6.png" alt="">
+                        </div>
+                        <div class="pit-content">
+                            <h5>Special Degens</h5>
+                            <p>It’s a secret. Excited? We wouldn’t be if we were in your driver’s seat.</p>
+                        </div>
+                    </div> <!-- ./pit-single -->
+                </div>
+            </div>
+        </div>
+
+        <div class="section roadmap-area" id="racemap">
+            <div class="container">
+                <div class="section-title text-center" data-aos="flip-up">
+               <h2><img class="obligue" src="assets/img/obligue.svg" alt="">RACEMAP</h2>
+               <p>Buckle-up, Degen, we’re going for a lap.</p>
+           </div>
+           <div class="racemap-box-wrapper position-relative">
+            <img class="racemap" src="assets/img/racemap.png" alt="">
+            <ul class="roadmap-list">
+                  
+                <li>
+                    <div class="rd-list-content" data-aos="fade-left">
+                        <h5><span>20%</span> Racers Minted</h5>
+                        <p>A random Degen Racer will be selected to receive a unique "Race Pass” and will receive a Formula 3 Driving experience on the circuit of his choice.</p>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="rd-list-content" data-aos="fade-right">
+                        <h5><span>35%</span> Racers Minted</h5>
+                        <p>A lucky Degen charity chosen by the community will receive 200 Solana.</p>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="rd-list-content" data-aos="fade-left">
+                        <h5><span>50%</span> Racers Minted</h5>
+                        <p>One lucky Degen Racer will be selected to receive a unique “Grand-Prix pass” in which he will receive a pre-paid all-inclusive trip for two for the Grand-Prix of his choice (We recommend Monaco or Miami).</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rd-list-content" data-aos="fade-right">
+                        <h5><span>80%</span> Racers Minted</h5>
+                        <p>A limited Degen Kart Club merch drop will be available to NFT holders. It will be made of T-shirts, helmets, car stickers and in partnership with... whoever the community chooses.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rd-list-content" data-aos="fade-left">
+                        <h5><span>100%</span> Racers Minted</h5>
+                        <p>One Degen Racer will receive a “Supercar Pass”, which he will be able to claim for a supercar of a value under 50 000$, or an equal cash prize paid in Solana.</p>
+                    </div>
+                </li>
+            </ul>
+           </div> <!-- ./racemap-box-wrapper -->
+               
+           </div>
+        </div> <!-- ./service-area -->
+
+        <div class="section invitation-area second-area">
+            <div class="container">
+                <div class="lap-content-wrapper position-relative" data-aos="fade-right">
+                    <img src="assets/img/shape-2.png" alt="" class="position-absolute shape-1">
+                    
+                    <div class="lap-g-wrapper reverse-style-2">
+                        <div class="lap-right">
+                            <img src="assets/img/img-3.png" alt="">
+                        </div>
+                        <div class="lap-left">
+                            <h4 class="title-type-two">Second Lap
+                                <span>(After minting)</span></h4>
+                       <p>We will install Grape Protocol on Discord, hold a community vote and decide on the gamification on the game we're creating. Indeed, we strongly believe community should have the right to decide on how they will play their Degen Racers and we will develop their game.</p>
+                       <p>We will hold our community vote in November, airdrop the 3D rigged characters corresponding to the 2D ones in December, have the first gameplays in Q1 2022 and the beta should be playable by Q2 2022.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div> <!-- ./about-two-area -->
+
+        <div class="section faq-area">
+            <div class="container">
+                <div class="section-title text-center" data-aos="flip-up">
+                    <h2><img class="obligue" src="assets/img/obligue.svg" alt="">Faq</h2>
+                </div>
+
+                <div class="faq-content-wrapper">
+                    <div class="faq-content-rw" data-aos="fade-up" data-aos-delay="">
+                        <button class="faq-point"><span class="faq-numbering">01</span> How can I purchase my own Degen Racer?</button>
+                        <div class="faq-content">
+                            <p>Just go back to our home screen, press on the Degen Radio and the number of Degen Racers you would like to mint. Then follow the instructions, buckle up and you’re ready to go! Warning: please do so sober, drinking and driving won’t be tolerated at the Degen Kart Club. 
+                                To learn about how to download your Phantom or Sollet wallet and add funds to the wallet, <a href="#" class="link">click here.</a>
+                                </p>
+                        </div>
+                    </div> <!-- ./ faq-content-rw -->
+                    <div class="faq-content-rw" data-aos="fade-up" data-aos-delay="50">
+                        <button class="faq-point"><span class="faq-numbering">02</span> When is the drop? How much?</button>
+                        <div class="faq-content">
+                            <p>The drop will be on 26th October at 8PM UTC and will cost 0.5 SOL. The time will be announced on the website.</p>
+                        </div>
+                    </div> <!-- ./ faq-content-rw -->
+                    <div class="faq-content-rw" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq-point"><span class="faq-numbering">03</span> Can I mint from my phone?</button>
+                        <div class="faq-content">
+                            <p>Yes, you can if you use Sollet on mobile. To use Phantom, you should use your own Mac, PC or Linux (Apeintosh not supported in the current version)</p>
+                        </div>
+                    </div> <!-- ./ faq-content-rw -->
+                    <div class="faq-content-rw" data-aos="fade-up" data-aos-delay="150">
+                        <button class="faq-point"><span class="faq-numbering">04</span> Is there a limit?</button>
+                        <div class="faq-content">
+                            <p>You’ll be able to mint up to 5 Racers per transaction.</p>
+                        </div>
+                    </div> <!-- ./ faq-content-rw -->
+                    <div class="faq-content-rw" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq-point"><span class="faq-numbering">05</span> Will I become rich by buying a Degen Racer?</button>
+                        <div class="faq-content">
+                            <p>'No. We are here to have fun, build a cool game and chat with other car enthusiasts. If the price of Each Degen rises, good for you! Otherwise, we're all in here to build this project (and the supercar is cool too).</p>
+                        </div>
+                    </div> <!-- ./ faq-content-rw -->
+                    <div class="faq-content-rw" data-aos="fade-up" data-aos-delay="250">
+                        <button class="faq-point"><span class="faq-numbering">06</span> Do you need a driving license to race on the Degen Kart Club?</button>
+                        <div class="faq-content">
+                            <p>That’s enough FAQ questions for now. If you have any other question, feel free to join the Discord and ask it in the general chat or contact our support.</p>
+                        </div>
+                    </div> <!-- ./ faq-content-rw -->
+                </div>
+            </div>
+        </div> <!-- ./distribution-area -->
+
+        <div class="section footer-area">
+            <div class="container">
+                <div class="footer-top-content-wrapper">
+                    <div class="section-title text-center" data-aos="flip-up">
+                        <h2><img class="obligue" src="assets/img/obligue.svg" alt="">LET’s race!</h2>
+                    </div>
+
+                    <div class="minting-img" data-aos="fade-up">
+                        <img src="assets/img/img-2.png" alt="">
+                    </div>
+
+                    <div class="text-center">
+                        <a href="#" class="btn minting" data-aos="flip-up">Start Minting</a>
+                    </div>
+                </div>
+
+
+                <div class="footer-bottom-content d-flex align-items-center justify-content-between">
+                    <div class="ft-left d-flex align-items-center">
+                        <a href="#" class="ft-logo d-inline-block"><img class="img-fluid" src="assets/img/logo.png" alt=""></a>
+                        <p class="copyright-text d-none d-md-block"> All Rights Reserved © 2021</p>
+                    </div>
+
+                    <div class="ft-right">
+                        <ul class="ft-links d-flex align-items-center justify-content-end">
+                            <li><a href="#"><img src="assets/img/twitter.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/img/gamepad.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="copyright-text d-md-none d-lg-none d-xl-none text-center"> All Rights Reserved © 2021</p>
+            </div>
+        </div>
+    </main>
+
+
+    <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+
+    <!-- Jquery Js  -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Popper Js -->
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugin Js  -->
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Main Js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+
+
+@media screen and (max-width: 1365px) {
+    .lap-right img {
+        width: 520px;
+        margin-left: -88px;
+    }
+    .lap-g-wrapper.reverse-style-2 .lap-right img {
+        margin-left: -66px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .lap-right {
+        display: none;
+    }
+    .lap-g-wrapper {
+        display: block;
+    }
+    .lap-g-wrapper p br {
+        display: none;
+    }
+    .section {
+        padding-top: 115px;
+        padding-bottom: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width: 991px) {
+    .section-title p br {
+        display: none;
+    }
+    .section-title h2 {
+        font-size: 45px;
+    }
+    .header-content-portion {
+        border-radius: 100px;
+        padding: 10px 15px;
+    }
+    .section-title h2 .obligue {
+        width: 18px;
+    }
+    .section-title {
+        margin-bottom: 55px;
+    }
+    .section {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .racemap {
+        width: 180px;
+    }
+    .rd-list-content h5 {
+        font-size: 30px;
+    }
+    .roadmap-list li:nth-child(1) {
+        top: 5px;
+    }
+    .roadmap-list li:nth-child(2n+1) {
+        left: calc(50% + 90px);
+    }
+    .rd-list-content p {
+        font-size: 15px;
+    }
+    .roadmap-list li:nth-child(2) {
+        top: 145px;
+    }
+    .roadmap-list li:nth-child(3) {
+        top: 270px;
+    }
+    .roadmap-list li:nth-child(4) {
+        top: 445px;
+    }
+    .roadmap-list li:nth-child(5) {
+        top: 590px;
+    }
+    .faq-numbering {
+        width: 55px;
+        height: 50px;
+        font-size: 24px;
+    }
+    .faq-point {
+        font-size: 20px;
+        padding-left: 98px;
+    }
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pit-g-wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+    .shape-1 {
+        max-width: 100%;
+    }
+    .side-line {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .header-content-portion {
+        border-radius: 0;
+        padding: 10px 0;
+    } 
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+    .site_logo img {
+        max-width: 60px;
+    }
+    .header-right .connect-wallet {
+        margin-left: 0;
+        padding: 10px 6px;
+        font-size: 12px;
+    }
+    .toggle-bar {
+        margin-left: 8px;
+    }
+    .section-title h2 {
+        font-size: 26px;
+    }
+    .lap-content-wrapper {
+        padding: 24px 20px;
+        overflow: hidden;
+    }
+    .lap-left h5 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    p {
+        font-size: 15px;;
+    }
+
+    .pit-g-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+    .side-line {
+        display: none;
+    }
+    .racemap {
+        display: none;
+    }
+    .roadmap-list {
+        position: unset;
+    }
+    .roadmap-list li {
+        position: relative;
+        min-height: auto;
+        left: unset !important;
+        top: unset !important;
+        right: unset !important;
+        padding-left: 30px;
+    }
+    .roadmap-list li:not(:last-child)::after {
+        height: calc(100% + 40px);
+        width: 1px;
+        border-right: 1px dashed #DBA312;
+        position: absolute;
+        left: 8px;
+        top: 100%;
+        content: "";
+        top: 15px;
+    }
+    .roadmap-list li::before {
+        width: 12px;
+        height: 12px;
+        content: "";
+        position: absolute;
+        background: #DBA312;
+        top: 10px;
+        left: 3px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    .roadmap-list li:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .section-title p {
+        font-size: 15px;
+    }
+    .section-title {
+        margin-bottom: 45px;
+    }
+    .rd-list-content h5 {
+        font-size: 24px;
+    }
+    .faq-content-rw {
+        display: block;
+    }
+    .faq-content {
+        padding: 15px 20px;
+        background: #1E417B !important;
+    }
+    .faq-point {
+        font-size: 18px;
+        min-height: 75px;
+        line-height: 1.4;
+        padding: 15px 20px;
+        padding-left: 70px;
+    }
+    .faq-numbering {
+        width: 43px;
+        height: 37px;
+        font-size: 15px;
+        left: 15px;
+        top: 20px;
+    }
+    .faq-point {
+        background: #123773 !important;
+    }
+    .preloader-content img {
+        width: 125px;
+        margin-bottom: 20px;
+    }
+    .preloader-content p {
+        font-size: 18px;
+    }
+    .header-area {
+        padding: 0;
+        background-color: rgba(8, 8, 8, 0.7);
+    }
+    .header-content-portion {
+        background-color: transparent;
+    }
+    .minting-img {
+        margin-bottom: 45px;
+        margin-top: 50px;
+    }
+    .copyright-text {
+        padding-bottom: 24px;
+    }
+    .footer-top-content-wrapper {
+        margin-bottom: 35px;
+    }
+    .btn.minting {
+        font-size: 16px;
+    }
+    .section-title h2 .obligue {
+        width: 12px;
+        margin-top: -5px;
+    }
+
+
+}
