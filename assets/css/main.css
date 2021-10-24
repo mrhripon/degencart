@@ -564,7 +564,10 @@ ol {
 	-o-object-fit: cover;
 	   object-fit: cover;
 }
-
+.hero-area video {
+	width: 100%;
+	height: 100vh;
+}
 .hero-area {
   position: relative;
 }
