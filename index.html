@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
 
     <!-- Plugin Css  -->
-    <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/aos.css">
 
     <!-- Main css -->
@@ -135,6 +134,36 @@
             <video playsinline autoplay loop muted poster="assets/img/hero-bg.jpg" id="hero-video">
                 <source src="assets/video/driving.mp4" type="video/mp4" />
             </video>
+
+            <div class="position-absolute top-0 bottom-0 start-0 end-0 w-100 vh-100 d-flex align-items-center justify-content-center absolute-content-wrapper">
+                <div class="absolute-content-inner-box">
+                    <div id="clockdiv" class="countdown-timer">
+                        <div>
+                          <span class="days"></span>
+                        </div>
+                        <div>
+                          <span class="hours"></span>
+                        </div>
+                        <div>
+                          <span class="minutes"></span>
+                        </div>
+                        <div>
+                          <span class="seconds"></span>
+                        </div>
+                      </div>
+
+                      <div class="mint-wrapper">
+                          <h4>Mint 1</h4>
+
+                          <div class="min-t-g-wrapper">
+                              <div>2</div>
+                              <div>3</div>
+                              <div>4</div>
+                              <div>5</div>
+                          </div>
+                      </div>
+                </div>
+            </div>
         </div>
 
         <div class="section invitation-area" id="reco">
@@ -409,6 +438,18 @@
     <!-- Plugin Js  -->
     <script src="assets/js/jquery.nav.js"></script>
     <script src="assets/js/aos.js"></script>
+    <script src="assets/js/countdown.js"></script>
+
+    <script>
+       const myCountdown = new countdown({
+            target: '.countdown',
+            dayWord: ' days',
+            hourWord: ' hours',
+            minWord: ' mins',
+            secWord: ' seconds'
+        });
+    </script>
+
 
     <!-- Main Js -->
     <script src="assets/js/main.js"></script>

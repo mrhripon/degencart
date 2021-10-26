@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 
 /* Base Css Start  */
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Exo:wght@700;800&display=swap');
@@ -98,10 +105,6 @@ ol {
 
 .z-index-1 {
   z-index: 1;
-}
-.vh-100 {
-	min-height: 700px !important;
-	height: 100vh !important;
 }
 .mb-30 {
 	margin-bottom: 30px;
@@ -332,6 +335,15 @@ ol {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@-webkit-keyframes split {
+    from {
+      width: 50%;
+    }
+
+    to {
+      width: 0%;
+    }
+}
 @keyframes split {
     from {
       width: 50%;
@@ -342,21 +354,50 @@ ol {
     }
 }
 
-@keyframes driving {
+@-webkit-keyframes driving {
     0% {
-      transform: rotateZ(0deg);
+      -webkit-transform: rotateZ(0deg);
+              transform: rotateZ(0deg);
     }
     25% {
-      transform: rotateZ(10deg);
+      -webkit-transform: rotateZ(10deg);
+              transform: rotateZ(10deg);
     }
     50% {
-      transform: rotateZ(0deg);
+      -webkit-transform: rotateZ(0deg);
+              transform: rotateZ(0deg);
     }
     75% {
-      transform: rotateZ(-10deg);
+      -webkit-transform: rotateZ(-10deg);
+              transform: rotateZ(-10deg);
     }
     100% {
-      transform: rotateZ(0deg);
+      -webkit-transform: rotateZ(0deg);
+              transform: rotateZ(0deg);
+    }
+
+}
+
+@keyframes driving {
+    0% {
+      -webkit-transform: rotateZ(0deg);
+              transform: rotateZ(0deg);
+    }
+    25% {
+      -webkit-transform: rotateZ(10deg);
+              transform: rotateZ(10deg);
+    }
+    50% {
+      -webkit-transform: rotateZ(0deg);
+              transform: rotateZ(0deg);
+    }
+    75% {
+      -webkit-transform: rotateZ(-10deg);
+              transform: rotateZ(-10deg);
+    }
+    100% {
+      -webkit-transform: rotateZ(0deg);
+              transform: rotateZ(0deg);
     }
 
 }
@@ -379,10 +420,14 @@ ol {
 }
 #preloader.start-split::before,
 #preloader.start-split::after {
-  animation-name: split;
-  animation-duration: .5s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
+  -webkit-animation-name: split;
+          animation-name: split;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 .preloader-content {
   position: relative;
@@ -397,7 +442,8 @@ ol {
 .preloader-content img {
   width: 190px;
   margin-bottom: 24px;
-  animation: driving 3s linear 0s infinite;
+  -webkit-animation: driving 3s linear 0s infinite;
+          animation: driving 3s linear 0s infinite;
 }
 /* page loader css end */
 /* extra css end  */
@@ -438,6 +484,8 @@ ol {
 	text-decoration: none;
 	font-size: 17px;
 	padding: 17px 15px;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
 	transition: .3s;
 }
 .wallet-option a:hover,
@@ -575,8 +623,8 @@ ol {
   content: "";
   height: 190px;
   width: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(1%, #355891), to(#060B120F));
   background: -o-linear-gradient(bottom, #355891 1%, #060B120F);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(1%, #355891), to(#060B120F));
   background: linear-gradient(to top, #355891 1%, #060B120F);
   position: absolute;
   bottom: 0;
@@ -588,6 +636,91 @@ ol {
 	padding-bottom: 50px;
 	margin-top: -60px;
 }
+.countdown-timer {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	max-width: 270px;
+	margin: auto;
+}
+
+.countdown-timer div {
+	text-align: center;
+	color: #fff;
+	background: #FF0000;
+	border-radius: 5px;
+	height: 35px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 30px;
+  }
+  .absolute-content-inner-box {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	position: relative;
+  }
+
+  .mint-wrapper h4 {
+	background: -webkit-gradient(linear, left top, left bottom, from(#FF0000), color-stop(53.94%, rgba(219, 6, 6, 0.88)), color-stop(106.76%, #4F0101));
+	background: -o-linear-gradient(top, #FF0000 0%, rgba(219, 6, 6, 0.88) 53.94%, #4F0101 106.76%);
+	background: linear-gradient(180deg, #FF0000 0%, rgba(219, 6, 6, 0.88) 53.94%, #4F0101 106.76%);
+	border-radius: 100px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 40px;
+  }
+  .mint-wrapper {
+	max-width: 350px;
+	margin: auto;
+	margin-top: 55px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	z-index: 1;
+  }
+  .min-t-g-wrapper {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	grid-gap: 10px;
+	margin-left: 42px;
+	margin-right: 40px;
+  }
+  .min-t-g-wrapper div {
+	background: -webkit-gradient(linear, left top, left bottom, from(#FF0000), color-stop(53.94%, rgba(219, 6, 6, 0.88)), color-stop(106.76%, #4F0101));
+	background: -o-linear-gradient(top, #FF0000 0%, rgba(219, 6, 6, 0.88) 53.94%, #4F0101 106.76%);
+	background: linear-gradient(180deg, #FF0000 0%, rgba(219, 6, 6, 0.88) 53.94%, #4F0101 106.76%);
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	height: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+  }
 /* hero-area css end */
 
 /* pit-area css start */
