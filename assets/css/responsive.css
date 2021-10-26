@@ -23,6 +23,28 @@
         padding-top: 115px;
         padding-bottom: 40px;
     }
+    .countdown-timer {
+        grid-gap: 5px;
+        max-width: 195px;
+    }
+    .countdown-timer div {
+        height: 25px;
+        font-size: 13px;
+        margin-top: 22px;
+    }
+    .mint-wrapper {
+        max-width: 240px;
+        margin-top: 36px;
+    }
+    .mint-wrapper h4 {
+        padding: 10px;
+        font-size: 24px;
+    }
+    .min-t-g-wrapper div {
+        border-radius: 5px;
+        font-size: 14px;
+        height: 30px;
+    }
 
     
 }
